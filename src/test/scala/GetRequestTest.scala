@@ -16,7 +16,7 @@ class GetRequestTest extends Simulation {
       .acceptHeader("application/json")
   }
 
-  private val sendGetRequest = scenario("Get date from endpoint")
+  private val sendGetRequest = scenario("Send GET request to endpoint")
     .exec(http("GET method")
       .get("/")
       .queryParamMap(queryParams)
