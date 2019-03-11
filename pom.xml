@@ -9,9 +9,9 @@
     <version>1.0</version>
 
     <properties>
-      <gatling.version>3.0.2</gatling.version>
-      <gatling.plugin.version>3.0.1</gatling.plugin.version>
-      <scala.plugin.version>3.4.4</scala.plugin.version>
+      <gatling.version>3.0.3</gatling.version>
+      <gatling.plugin.version>3.0.2</gatling.plugin.version>
+      <scala.plugin.version>4.0.1</scala.plugin.version>
     </properties>
 
     <dependencies>
