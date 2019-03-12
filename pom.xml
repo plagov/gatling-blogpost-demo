@@ -28,6 +28,9 @@
           <groupId>io.gatling</groupId>
           <artifactId>gatling-maven-plugin</artifactId>
           <version>${gatling.plugin.version}</version>
+          <configuration>
+            <runMultipleSimulations>true</runMultipleSimulations>
+          </configuration>
         </plugin>
         <plugin>
           <groupId>net.alchim31.maven</groupId>
