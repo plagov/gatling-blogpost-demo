@@ -1,0 +1,4 @@
+= Gatling examples for blog post
+
+This repository includes source code of examples described in my personal
+https://plagov.github.io/2019/03/12/load-testing-with-gatling.html[blog post].
