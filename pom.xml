@@ -10,7 +10,7 @@
 
     <properties>
       <gatling.version>3.6.1</gatling.version>
-      <gatling.plugin.version>3.1.2</gatling.plugin.version>
+      <gatling.plugin.version>4.0.0</gatling.plugin.version>
       <scala.plugin.version>4.5.4</scala.plugin.version>
     </properties>
 
