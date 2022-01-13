@@ -10,7 +10,7 @@
 
     <properties>
       <gatling.version>3.7.3</gatling.version>
-      <gatling.plugin.version>3.1.2</gatling.plugin.version>
+      <gatling.plugin.version>4.1.0</gatling.plugin.version>
       <scala.plugin.version>4.5.6</scala.plugin.version>
     </properties>
 
@@ -36,6 +36,14 @@
           <groupId>net.alchim31.maven</groupId>
           <artifactId>scala-maven-plugin</artifactId>
           <version>${scala.plugin.version}</version>
+          <executions>
+            <execution>
+              <goals>
+                <goal>compile</goal>
+                <goal>testCompile</goal>
+              </goals>
+            </execution>
+          </executions>
         </plugin>
       </plugins>
     </build>
